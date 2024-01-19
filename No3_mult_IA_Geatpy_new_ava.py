@@ -340,6 +340,7 @@ for c in unitcost:
     c = float(c - np.max(unitcost)) / (np.min(unitcost) - np.max(unitcost))
     cost.append(c)
 cost_arr=np.array(cost)
+#aaaaa
 def function2(X2,para):#para是单位价格约束(数组
 
     # a1, a2, a3, a4, a5, a6 = aval[0], aval[1], aval[2], aval[3], aval[4], aval[5]
