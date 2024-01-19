@@ -1,6 +1,10 @@
 # 基于IM-NSGA2的草原火灾多星协同应急观测算法研究
 The Study of IM-NSGA2 based Multi-satellite scheduling perception for grassland fire disaster
 
+研究区域:中蒙边界，shp文件monggulia_fire.zip
+卫星过境信息表：2023.4.9-4.12蒙古火灾卫星资源.xls
+实验所用卫星资源库中卫星的两行根数，在monggulia_fire_satellite文件夹中
+
 ## 流程：
 step0:卫星条带生成，打开No0_create_orbit.py
 ![img_2.png](img_2.png)

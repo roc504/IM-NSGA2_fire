@@ -7,7 +7,7 @@
 针对完全覆盖研究区的卫星条带生成
 '''
 import shapefile
-# import No1_get_fishnet#todo 连接No1
+# import No1_get_fishnet
 import math as math
 import numpy as np
 import datetime
@@ -57,7 +57,7 @@ def satspeed_n(pass_time):
 undersate1_n=undersate_n(cal_line_stime)
 undersate2_n = undersate_n(cal_line_etime)
 #卫星轨道速度
-orbit_speed = satspeed_n(cal_line_stime)# TODO 取前一个点的速度，或者取平均值
+orbit_speed = satspeed_n(cal_line_stime)
 v=orbit_speed*1000 #卫星速度
 # print("星下点1坐标：",undersate1_n)
 # print("星下点2坐标：",undersate2_n)
@@ -91,8 +91,6 @@ def long_line_c(A,B,C1,d):#求星下点直线两边距离d的条带边线的C值
     C2leftC1=(d  *  math.sqrt((A * A + B * B))) + C1
     return [C2leftC1,C2rightC1]
 
-
-#TODO 条带两边的AB和星下点AB相同，C上面函数求出来
 
 def get_wideline(A, B, x3, y3):  # x1,y1,x2,y2是星下点坐标，
     # x3,y3是开始成像星下点的坐标

@@ -1,5 +1,11 @@
 /.idea/
+No0_create_satellite_orbit.py
+No1_get_fishnet.py
+No2_basetimeANDdeclination_get_stripe.py
+No2_get_all_covered_stripe.py
+No2_noswing_get_stripe.py
 No2_get_stripe_T&D_test.py
 No3_0_readstripe.py
 No3_1_mult_IA_GA.py
 No3_Initial_greedy.py
+No4_result2shp.py
